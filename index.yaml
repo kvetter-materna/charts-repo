@@ -3,12 +3,23 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-15T16:08:47.7309308+02:00"
+    created: "2020-06-15T17:21:29.9654795+02:00"
     description: A Helm chart for Kubernetes
     digest: a9dd03387cc8d29926d8209ae94be155e1314fa738139b912d61e619aae01982
     name: app1
     type: application
     urls:
-    - https://github.com/kvetter-materna/charts-repo/app1-0.1.0.tgz
+    - https://kvetter-materna.github.io/charts-repo/app1-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-15T16:08:47.7179319+02:00"
+  app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-15T17:21:29.9664365+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 1d1723b7761786bd9aee5ab715a543713a9011171c3c0514489f4b085c9e505c
+    name: app2
+    type: application
+    urls:
+    - https://kvetter-materna.github.io/charts-repo/app2-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-15T17:21:29.9644423+02:00"
