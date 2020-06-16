@@ -1,0 +1,7 @@
+registry: pun-harboreg-01.bmc.com
+
+images:
+  rssoimage: rsso/rsso
+  rssoimagetag: RSSO_20.02.00-DRSMX-30134
+  fluentbitimage: core-remedy/remedy/fluentbit
+  fluentbitimagetag: "1908-RTM"
