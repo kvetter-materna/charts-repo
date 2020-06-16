@@ -3,7 +3,7 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-16T09:10:07.1105637+02:00"
+    created: "2020-06-16T13:18:26.0179555+02:00"
     description: A Helm chart for Kubernetes
     digest: a9dd03387cc8d29926d8209ae94be155e1314fa738139b912d61e619aae01982
     name: app1
@@ -14,7 +14,7 @@ entries:
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-16T09:10:07.1115673+02:00"
+    created: "2020-06-16T13:18:26.0189558+02:00"
     description: A Helm chart for Kubernetes
     digest: 1d1723b7761786bd9aee5ab715a543713a9011171c3c0514489f4b085c9e505c
     name: app2
@@ -22,13 +22,24 @@ entries:
     urls:
     - https://kvetter-materna.github.io/charts-repo/app2-0.1.0.tgz
     version: 0.1.0
+  app3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-16T13:18:26.0199561+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 247b7dbc7cd13600129bafd7b990287c47af3320565954f9977c7cbeb089fae0
+    name: app3
+    type: application
+    urls:
+    - https://kvetter-materna.github.io/charts-repo/Test_App3/app3-0.1.0.tgz
+    version: 0.1.0
   rsso:
   - apiVersion: v1
-    created: "2020-06-16T09:10:07.1125984+02:00"
+    created: "2020-06-16T13:18:26.0199561+02:00"
     description: A helm chart for RSSO deployment
     digest: 720079649b8357336fef04d1330840f1a121f92098e1c361daa9b898494f4cd8
     name: rsso
     urls:
     - https://kvetter-materna.github.io/charts-repo/rsso-19.08.00.tgz
     version: 19.08.00
-generated: "2020-06-16T09:10:07.1095643+02:00"
+generated: "2020-06-16T13:18:26.0169565+02:00"
